@@ -1,11 +1,9 @@
 #include  <iostream>
 
 int main() {
-	std::cout << "Enter Three numbers";
+	std::cout << "Enter your age";
 	int x{};
-	int y{};
-	int z{};
-	std::cin >> x >> y >> z;
-	std::cout << "You entered " << x << ", " << y << ", " << z  << "?";
+	std::cin >> x;
+	std::cout << "You are " << x << " years old";
 	return 0;
 }
